@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<usuarios>
+  <usuario>
+    <email>ima000@ikasle.ehu.es</email>
+    <nomusuario>igomez</nomusuario>
+	<password>imanol</password>
+  </usuario>
+  <usuario>
+    <email>USER@USER.COM</email>
+    <nomusuario>USER</nomusuario>
+	<password>USER</password>
+  </usuario>  
+<usuario><email>jorge@jorge.com</email><nomusuario>Jorge</nomusuario><password>123456</password></usuario><usuario><email>tuvieja005@ikasle.es</email><nomusuario>walbin</nomusuario><password>123456</password></usuario></usuarios>

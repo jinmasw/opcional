@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title> Registro </title>
+	
+<link rel="stylesheet" href="estilo.css"/>
+<script type="text/javascript" src="funciones.js"></script>	 
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+</head>
+
+<body>
+	<h1>Formulario de registro</h1>
+	<ul class = "menu"><li><a href="inicio.php"> Volver al inicio </a></li></ul>
+	
+	
+	<form  method="post" enctype="multipart/form-data" ACTION="Registrar.php">
+	
+	Nombre de usuario: <input type= "text"
+			name="nombre"
+			id="nombre"
+			value=""/>
+			
+			<br/>
+			<br/>
+
+	Direccion de correo: <input type= "text"
+			name="correo"
+			id="correo"
+			onchange="validarCorreo()"
+			value=""/>
+			
+			<br/>			
+			<br/>
+			
+			
+	Password: <input type= "password"
+			name="contraseña"
+			id="contraseña"
+			value=""/>
+			
+			<br/>
+			<br/>
+			
+				
+	<input type="submit" onClick="return verificarVacio(this.form);" value="Enviar solicitud de inscripcion" />
+		
+</form>	
+	<br/>
+		
+	
+
+	
+
+	
+	
+	
+</body>
+</html>
